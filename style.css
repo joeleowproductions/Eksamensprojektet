@@ -1,0 +1,2314 @@
+ /* HOME */
+ 
+ /*Font Setup*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scrollbar-color: black;
+}
+
+ /* Background Picture*/
+.homepage{
+
+    height: 100vh;
+    width: 100%;
+ /*   background-image: url(../eksamensprojektjosiah/images/background.png); */
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-position: center;
+        
+}
+
+/* Joe Leow Productions Logo format*/
+
+.headlogo {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: left;
+    justify-content: none;
+    padding-left: 4%;
+    padding-right: 8%;
+    margin-top: 10px;
+}
+
+.headlogo .button {
+    display: flex;
+
+}
+
+ /* spacing of menubar */
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-top: 20px;
+margin-left: 5px;
+padding-right: 8%;
+}
+
+/* Portfolio 
+.logo{
+color: white;
+font-size: 35px;
+letter-spacing: 1px;
+cursor: pointer;
+
+}
+
+
+.logo:hover{
+    transition: .3s;
+transform: scale(1.2);
+
+}
+
+ /* Leow w/dropshadow
+span{
+color: blueviolet;   
+text-shadow:
+1px 1px 0 white,
+2px 2px 0 white,
+3px 3px 0 white;
+}
+*/
+
+ /* One Line - menu bar */
+nav u1 li {
+list-style-type: none;
+display: inline-block;
+padding: 10px 50px;
+    
+}
+/* menu bar dropshadow */
+nav u1 li a {
+
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-shadow:
+    1px 1px 0 blueviolet,
+    2px 2px 0 blueviolet;
+  /*  overflow: hidden;
+    position: fixed;
+    margin: 0;
+    padding: 14px 16px;
+    width: 100%;
+    */
+}
+ /* Hover effect w/alternative dropshadow & zoom*/
+nav u1 li a:hover {
+color: blueviolet;
+font-size: 30px;
+transition: .3s;
+text-shadow:
+1px 1px 0 white;
+padding: 5px   5px;
+}
+
+ /*Follow Me button*/
+.btn{
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .3s;
+    font-size: 15px;
+}
+
+ /*Follow Me button hover effect*/
+.btn:hover{
+    transform: scale(1.3);
+}
+
+ /*Joe Leow Productions alignment*/
+.joeleow{
+    position: absolute;
+    top: 50%;
+    left:8%;
+    transform: translateY(-50%);
+}
+
+/*Joe Leow Productions colouring*/
+.joeleow h1{
+    color:blueviolet;
+    margin: 20px 0px 20px;
+    font-size: 100px;
+    text-shadow:
+    4px 4px 0 white;
+}
+
+/*Multimedia designer colouring*/
+.joeleow h3{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-shadow:
+    3px 3px 0 blueviolet;
+}
+
+
+/* ABOUT ME SECTION */
+
+
+/*about alignment*/
+.aboutlayout{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*About background*/
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+
+/*About image format*/
+.about img{
+    height: auto;
+    width: 430px;
+}
+
+/*About text width format*/
+.about-text{
+width: 550px;
+}
+
+/*About Me Text coloring*/
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-shadow:
+    4px 4px 0 blueviolet,
+    5px 5px 0 blueviolet;
+    
+}
+
+/*About Me MulC*/
+
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+/*About Me Multimedia designer*/
+
+span2{
+    color: blueviolet;   
+    /*text-shadow:
+    1px 1px 0 white; */
+        
+}
+.about-text p{
+    /*color: lightblue;*/
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+/*Vid about me Button*/
+.vid{
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+/*Vid about me Hover effect*/
+.vid:hover{
+    background-color: transparent;
+    border: 2px solid blueviolet;
+    cursor: pointer;
+}
+
+
+/* FLOWS SETUP */
+
+
+/*Flow Background*/
+
+.allflows{
+
+    background: #101010;
+    width: 100%;
+    margin: 0px auto;
+    padding: 30px 0px;
+}
+
+/*Cph Business Logo*/
+.cphbus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: auto;
+}
+
+/*Flow Main Title*/
+.title h2{
+
+    color: white;
+    font-size: 75px;
+    width: 20%;
+    margin: 30px auto;
+    text-align: center;
+    text-shadow:
+    4px 4px 0 blueviolet;
+}
+
+/*Flow Boxes*/
+.flowbox {
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 50px;
+
+}
+
+
+/*Flows format*/
+.flows{
+    height: 240px;
+    width: 200px;
+    padding: 10px 25px;
+    background: blueviolet;
+    border-radius: 20px;
+    margin: 30px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*Flows Text*/
+
+.flows i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 20px 0px;
+    color: white;
+    text-shadow:
+    3px 3px 0 purple,
+    4px 4px 0 black;
+}
+
+
+/*Flows Header Colour & Format*/
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+/*Flow Subject Colour & Format*/
+h6{
+color: white;
+margin: 10px 0px 20px;
+font-size: 16px;
+padding: 5px;
+}
+
+
+/*Flows Button*/
+.flows .button{
+background-color: white;
+color: blueviolet;
+text-decoration: none;
+transition: transform .2s;
+border: 0px solid transparent;
+font-weight: bold;
+padding: 9px 10px;
+border-radius: 30px;
+transition: transform .3s;
+}
+
+/*Flows Hover*/
+.flows .button:hover{
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    transform: scale(1.5);
+}
+
+/*Contact Me Section*/
+.contact-me{
+    width: 100%;
+    height: 200px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* CONTACT ME SECTION */
+
+/*Contact Text format*/
+.contact-me p{
+    padding: -50px 0;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+/*Contact Button*/
+.contact-me .contact-me-button{
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+/*Contact button hover*/
+.contact-me .contact-me-button:hover{
+    transform: scale(1.3);
+    transition: .3s;
+    cursor: pointer; 
+}
+
+
+/* FOOTER */
+
+
+/*Footer Format*/
+footer{
+padding: 0;
+position: relative;
+width: 100%;
+height: 500px;
+background:#101010;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+/*Footer text format and colouring*/
+footer img:nth-child(1) {
+width: 200px;
+height: 200px;
+margin-bottom: 30px;
+}
+
+footer p:nth-child(2) {
+font-size: 30px;
+color: white;
+margin-bottom: 20px;
+font-weight: bold;
+}
+
+footer p:nth-child(3) {
+color: white;
+font-size: 17px;
+width: 500px;
+text-align: center;
+line-height: 26px;      
+}
+
+/*So-Me format & colouring*/
+.socials{
+    display: flex;
+}
+
+.socials a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/*So-Me Hover effect*/
+.socials a:hover {
+
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+.end {
+    position: absolute;
+    color: blueviolet;
+    bottom: 35px;
+    font-size: 14px;
+}
+
+ 
+/* PORTFOLIO PAGE */
+
+/* Portfolio Background Format */
+.portfoliopage{
+
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/pbackground.png);
+    background-size: cover;
+    background-position: center;
+    image-resolution: 5000;
+        
+}
+
+
+ /*Joe Leow Productions alignment*/
+ .joeleowportfolio{
+    position: absolute;
+    top: 50%;
+    left:8%;
+    transform: translateY(-50%);
+}
+
+/*Joe Leow Productions colouring*/
+.joeleowportfolio h1{
+    color:blueviolet;
+    margin: 20px 0px 20px;
+    font-size: 100px;
+    text-shadow:
+    4px 4px 0 white;
+}
+
+/*Skillset, experience, capabilities*/
+.joeleowportfolio h3{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-shadow:
+    3px 3px 0 blueviolet;
+}
+
+/* About Me Portfolio alternative colours*/
+
+/*about alignment*/
+.aboutportlayout{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*About background*/
+.aboutport{
+    width: 100%;
+    padding: 100px 0px;
+    background-color:rgb(127, 49, 199);
+}
+
+/*About image format*/
+.aboutport img{
+    height: auto;
+    width: 430px;
+}
+
+/*About text width format*/
+.aboutport-text{
+width: 550px;
+}
+
+/*About Me Text coloring*/
+.aboutport-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-shadow:
+    3px 3px 0 blueviolet,
+    5px 5px 0 white;
+    
+}
+
+/*About Me MulC*/
+
+.aboutport-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    text-shadow:
+    1px 1px 0 purple,
+    2px 2px 0 purple;
+}
+
+/*About Me Multimedia designer*/
+
+
+.aboutport-text p{
+
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+/*Vid about me Button*/
+.vidport{
+    background-color: white;
+    color: blueviolet;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+/*Vid about me Hover effect*/
+.vidport:hover{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+
+
+/*My Skills Background*/
+
+.portfolioskills {
+    background-color: rgb(140, 82, 222);
+    width: 100%;
+    padding: 30px 0px;
+    }
+    
+
+/*My Skills Title*/
+
+.skillstitle h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+    text-shadow:
+    3px 3px 0 blueviolet,
+    4px 4px 0 white;      
+}
+
+/*Possible Video Addition
+.video{
+    width: 40%;
+  height: 200px;
+  z-index: 2;
+  position: relative;
+  right: 70px;
+  top: 110px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+*/
+
+/*Skills Boxes*/
+
+.skillsbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+}
+
+.skills{
+    height: 700px;
+    width: 310px;
+    padding: 2px 15px;
+    background: blueviolet;
+    border: 5px solid white;
+    border-radius: 20px;
+    margin: 30px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+}
+
+.skills i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 20px 0px;
+    color: white;
+    text-shadow:
+    3px 3px 0 blueviolet,
+    5px 5px 0 white;
+}
+
+/*Skills Header Colour & Format*/
+.skills h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+/*Skills paragraph Colour & Format*/
+.skillsp p{
+color: white;
+margin: 10px 0px 20px;
+font-size: 16px;
+padding: 5px;
+text-align: left;
+line-height: 25px;
+}
+
+/*See examples button setup*/
+.see-examples{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+}
+
+/*See examples button*/
+.see-examples .see-examples-button{
+    background-color: white;
+    color: blueviolet;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+/*See examples hover animation*/
+.see-examples .see-examples-button:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+/*Work Experience*/
+
+.experience {
+    background-color: rgb(134, 68, 227);
+    width: 100%;
+    padding: 30px 0px;
+    }
+    
+
+/*My Skills Title*/
+
+.experiencetitle h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+    text-shadow:
+    3px 3px 0 blueviolet,
+    4px 4px 0 white;      
+}
+
+/*Flow Boxes*/
+
+.cvbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+}
+
+.cv{
+    height: 1100px;
+    width: 310px;
+    padding: 2px 15px;
+    background: blueviolet;
+    border: 5px solid white;
+    border-radius: 20px;
+    margin: 30px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+}
+
+.cv i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 20px 0px;
+    color: white;
+    text-shadow:
+    3px 3px 0 blueviolet,
+    5px 5px 0 white;
+}
+
+/*Skills paragraph Colour & Format*/
+.cv-p p{
+    color: white;
+    margin: 10px 0px 20px;
+    font-size: 16px;
+    padding: 5px;
+    text-align: middle;
+    line-height: 25px;
+    }
+
+span3{
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+.squarecphbus {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: none;
+    padding-left: 33%;
+    padding-right: 8%;
+    padding-top: 2%;
+    margin-top: 13%;
+}
+
+/*  EDUCATION  */
+
+.educationpage{
+
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/educationbackground.png);
+    background-size: cover;
+    background-position: center;
+    image-resolution: 5000;
+        
+}
+
+ /*Joe Leow Productions alignment*/
+ .education{
+    position: absolute;
+    top: 50%;
+    left:8%;
+    transform: translateY(-50%);
+}
+
+/*Joe Leow Productions colouring*/
+.education h1{
+    color:white;
+    margin: 20px 0px 20px;
+    font-size: 100px;
+    text-shadow:
+    5px 5px 0 blueviolet,
+    7px 7px 0 white;
+}
+
+/*Skillset, experience, capabilities*/
+.education h3{
+    color: blueviolet;
+    font-size: 35px;
+    margin-bottom: 30px;
+    text-shadow:
+    2px 2px 0 white;
+    
+}
+
+/* FLOWS /*
+
+/* Flow 1 Photoshop Part*/
+
+.flow1-1layout{
+    width: 1600px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*Flow 1 background*/
+.flow1-1{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: rgb(134, 68, 227);
+}
+
+/*Flow 1 Image format*/
+.flow1-1 img{
+    height: auto;
+    width: 800px;
+}
+
+/*Flow 1 text width format*/
+.flow1-1-text{
+width: 550px;
+}
+
+/*Flow 1 Titlecoloring*/
+.flow1-1-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-shadow:
+    4px 4px 0 blueviolet,
+    5px 5px 0 blueviolet;
+    
+}
+
+/*Flow 1 Heading*/
+
+.flow1-1-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+/*Flow 1 Description*/
+
+.flow1-1-text p{
+    /*color: lightblue;*/
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    padding-top: 2px;
+    margin-top: 2px;
+}
+
+.flow1-1-text h3{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+/*Flow 1 Button*/
+
+.flow1-1button{
+    width: 30%;
+    height: 50px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 17px;
+    text-align: center;
+}
+
+.flow1-1 .flow1-1buttonfr{
+    background-color: white;
+    color: blueviolet;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 15px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+/*See examples hover animation*/
+.flow1-1button .flow1-1buttonfr:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+/* FLOW 1 Figma Part */
+
+.flow1-2layout{
+    padding: 0;
+    margin: 0;
+    width: 1600px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*Flow 1 background*/
+.flow1-2{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: rgb(129, 71, 211);
+}
+
+/*Flow 1 Image format*/
+.flow1-2 img{
+    height: auto;
+    width: 800px;
+}
+
+/*Flow 1 text width format*/
+.flow1-2-text{
+width: 550px;
+}
+
+/*Flow 1 Titlecoloring*/
+.flow1-2-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-shadow:
+    4px 4px 0 blueviolet,
+    5px 5px 0 blueviolet;
+    
+}
+
+/*Flow 1 Heading*/
+
+.flow1-2-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+/*Flow 1 Description*/
+
+.flow1-2-text p{
+    /*color: lightblue;*/
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    padding-top: 2px;
+    margin-top: 2px;
+}
+
+.flow1-2-text h3{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    text-transform: capitalize;
+}
+
+/*Flow 1 Button*/
+
+.flow1-2button{
+    width: 30%;
+    height: 50px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+    text-align: center;
+}
+
+.flow1-2 .flow1-2buttonfr{
+    background-color: white;
+    color: blueviolet;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 15px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+/*See examples hover animation*/
+.flow1-2button .flow1-2buttonfr:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+/* Flow 2 */
+
+.flow2layout{
+    width: 1600px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*Flow 2 background*/
+.flow2{
+    width: 100%;
+    padding: 50px 0px;
+    padding-right: 100px;
+    background-color: #101010;
+}
+
+/*Flow 2 Image format*/
+.flow2 img{
+    height: auto;
+    width: 800px;
+}
+
+/*Flow 2 text width format*/
+.flow2-text{
+width: 550px;
+}
+
+/*Flow 2 Titlecoloring*/
+.flow2-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-shadow:
+    4px 4px 0 blueviolet,
+    5px 5px 0 blueviolet;
+    
+}
+
+/*Flow 2 Heading*/
+
+.flow2-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+/*Flow 2 Description*/
+
+.flow2-text p{
+    /*color: lightblue;*/
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    padding-top: 2px;
+    margin-top: 2px;
+}
+
+.flow2-text h3{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+/*Flow 2 Button*/
+
+.flow2button{
+    width: 30%;
+    height: 50px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+    text-align: center;
+}
+
+.flow2button .flow2buttonfr{
+    background-color: white;
+    color: blueviolet;
+    text-decoration: none;
+    border: 3px solid blueviolet;
+    font-weight: bold;
+    padding: 13px 15px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+/*See examples hover animation*/
+.flow2button .flow2buttonfr:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+/* Flow 3 */
+
+.flow3layout{
+    width: 1600px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*Flow 3 background*/
+.flow3{
+    width: 100%;
+    padding: 50px 0px;
+    padding-right: 100px;
+    background-color: rgb(129, 71, 211);
+}
+
+/*Flow 3 Image format*/
+.flow3 img{
+    height: auto;
+    width: 800px;
+}
+
+/*Flow 3 text width format*/
+.flow3-text{
+width: 550px;
+}
+
+/*Flow 3 Titlecoloring*/
+.flow3-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-shadow:
+    4px 4px 0 blueviolet,
+    5px 5px 0 blueviolet;
+    
+}
+
+/*Flow 3 Heading*/
+
+.flow3-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+/*Flow 3 Description*/
+
+.flow3-text p{
+    /*color: lightblue;*/
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    padding-top: 2px;
+    margin-top: 2px;
+}
+
+.flow3-text h3{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+/*Flow 3 Button*/
+
+.flow3button{
+    width: 30%;
+    height: 50px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+    text-align: center;
+}
+
+.flow3button .flow3buttonfr{
+    background-color: white;
+    color: blueviolet;
+    text-decoration: none;
+    border: 3px solid blueviolet;
+    font-weight: bold;
+    padding: 13px 15px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+/*See examples hover animation*/
+.flow3button .flow3buttonfr:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+
+/*FLOW 1 PAGE*/
+
+
+.flow1page{
+
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/flow1background.png);
+    background-size: cover;
+    background-position: center;
+    image-resolution: 5000;
+        
+}
+
+
+/*FLOW 2 PAGE*/
+
+
+.flow2page{
+
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/flow2background.png);
+    background-size: cover;
+    background-position: center;
+    image-resolution: 5000;
+        
+}
+
+.flow2 img{
+    height: auto;
+    width: 950px;
+    padding-right: 150px;
+}
+
+/*FLOW 3 PAGE*/
+
+.flow3page{
+
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/flow3background.png); 
+    background-size: cover;
+    background-position: center;
+    image-resolution: 5000;
+        
+}
+
+.flow3 img{
+    height: auto;
+    width: 950px;
+    padding-right: 150px;
+    padding-bottom: 200px;
+}
+
+/* FLOW 3 PAGE CSS */
+
+/* Forside */
+.bogh { 
+    background-color: red;
+    padding: 15px;
+    margin: 15px;
+    align-items: flex-end;
+}
+/* Headings/Titles */
+.box {
+    background-color: lightblue;
+    margin: 10px;
+    padding: 10px;
+    color:black;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    height: adjust;
+    width: adjust;
+    align-items: center;
+}
+
+.box1 {
+    background-color: white;
+    margin: 10px;
+    color: blue;
+    font-size: xx-large;
+    font-family: arial, Helvetica, sans-serif;
+    font-style: b;
+    width: 200px;
+  
+}
+
+/* Om Jannnie*/
+
+.box2 {
+    background-color: lightcoral;
+    margin: 10px;
+    padding: 10px;
+    color:white;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    height: adjust;
+    align-items: center;
+}
+
+.om-jannie {
+
+    flex-direction: column;
+    /* Nu Styrer denne pludselig den lodrette fordeling */
+    justify-content: space-between;
+    /* ... og denne styrere nu det vandrette*/
+    align-items: center;
+        }
+
+/* Jannies Motivation */      
+.box3 {
+    background-color: lightcoral;
+    margin: 10px;
+    padding: 10px;
+    color:white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    height: adjust;
+    width: adjust;
+    align-items: center;
+}
+/* Jannies Mærkesager */  
+.box4 {
+    background-color: lightskyblue;
+    margin: 10px;
+    padding: 10px;
+    color:white;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    height: adjust;
+    width: adjust;
+    align-items: center;
+}
+/* Mærkesager */  
+.box5 {
+    background-color: lightsteelblue;
+    margin: 10px;
+    padding: 10px;
+    color:black;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    height: adjust;
+    width: adjust;
+    align-items: center;
+}
+/* So-Me/Konktakt */
+.socialsjannie {
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    color:black;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 300px;
+    width: adjust;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*Flow 4*/
+
+.flow4layout1{
+    width: 1600px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*Flow 4 Part 1 background*/
+.flow41{
+    width: 100%;
+    padding: 50px 0px;
+    padding-right: 100px;
+    background-color: rgb(134, 68, 227);
+}
+
+.flow4page{
+height: 110vh;
+width: 100%;
+background-image: url(images/flow4background.png); 
+background-size: cover;
+background-position: center;
+image-resolution: 5000;    
+}
+
+.flow41 img{
+height: auto;
+width: 950px;
+padding-right: 150px;
+padding-bottom: 200px;
+}
+
+/*Flow 4 text width format*/
+.flow4-text{
+width: 550px;
+}
+    
+/*Flow 4 Titlecoloring*/
+.flow4-text h2{
+color: white;
+font-size: 75px;
+text-transform: capitalize;
+margin-bottom: 20px;
+text-shadow:
+4px 4px 0 blueviolet,
+5px 5px 0 blueviolet;
+}
+    
+/*Flow 4 Heading*/
+    
+.flow4-text h5{
+color: white;
+letter-spacing: 2px;
+font-size: 30px;
+margin-bottom: 25px;
+text-transform: capitalize;
+}
+    
+/*Flow 4 Description*/
+    
+.flow4-text p{
+/*color: lightblue;*/
+color: white;
+letter-spacing: 1px;
+line-height: 28px;
+font-size: 18px;
+margin-bottom: 45px;
+padding-top: 2px;
+margin-top: 2px;
+}
+    
+.flow4-text h3{
+color: white;
+letter-spacing: 2px;
+font-size: 25px;
+margin-bottom: 25px;
+text-transform: capitalize;
+}
+    
+
+/* Flow 4 Part 2 */
+
+
+.flow4layout2{
+    width: 1600px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flow42{
+    width: 100%;
+    padding: 50px 0px;
+    padding-right: 100px;
+    background-color: rgb(129, 71, 211); 
+}
+
+.flow42 img{
+    height: auto;
+    width: 950px;
+    padding-right: 150px;
+    padding-bottom: 200px;
+    }
+
+/* Flow 4 Buttons*/
+
+/*Flow 4 Button*/
+    
+.flow4button{
+width: 40%;
+height: 50px;
+display: flex;
+align-items: left;
+flex-direction: column;
+justify-content: center;
+font-size: 17px;
+text-align: center;
+}
+
+.flow4button .flow4buttonfr{
+background-color: white;
+color: blueviolet;
+text-decoration: none;
+border: 3px solid blueviolet;
+font-weight: bold;
+padding: 15px 5px;
+border-radius: 30px;
+transition: .4s;
+}
+    
+/*See examples hover animation*/
+.flow4button .flow4buttonfr:hover{
+transform: scale(1.2);
+transition: .3s;
+}
+
+.flow4button2{
+width: 30%;
+display: flex;
+flex-wrap: wrap;
+align-items: left;
+flex-direction: column;
+justify-content: space-evenly;
+font-size: 15px;
+height: 50px;
+}
+
+.flow4button2 .flow4button2fr{
+background-color: white;
+color: blueviolet;
+text-decoration: none;
+border: 10px solid rgb(129, 71, 211); ;
+font-weight: bold;
+padding: 13px 15px;
+border-radius: 30px;
+transition: .4s;
+margin-bottom: 15px;
+}
+    
+/*See examples hover animation*/
+.flow4button2 .flow4button2fr:hover{
+transform: scale(1.1);
+transition: .3s;
+}
+
+.flow4button3{
+width: 30%;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+flex-direction: column;
+justify-content: space-evenly;
+font-size: 15px;
+height: 50px;
+}
+
+.flow4button3 .flow4button3fr{
+background-color: white;
+color: blueviolet;
+text-decoration: none;
+border: 2px transparent;
+font-weight: bold;
+padding: 13px 15px;
+border-radius: 30px;
+transition: .4s;
+margin-bottom: 15px;
+}
+    
+/*See examples hover animation*/
+.flow4button3 .flow4button3fr:hover{
+transform: scale(1.1);
+transition: .3s;
+}
+
+/* FLOW 5 EKSAMENSPROJEKT */
+
+/*Flow 5*/
+.flow5page{
+
+height: 110vh;
+width: 100%;
+background-image: url(images/flow5background.png);
+background-size: cover;
+background-position: center;
+image-resolution: 5000;
+
+}
+
+
+/* Eksamensprojekt Forklaring*/
+.flow5layout1{
+width: 1600px;
+max-width: 95%;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+/*Flow 5 Part 1 background*/
+.flow5-1{
+width: 100%;
+padding-right: 100px;
+padding: 50px 0px;
+background-color: #101010;
+}
+
+.flow5-1 img{
+height: auto;
+width: 950px;
+padding-right: 150px;
+padding-bottom: 200px;
+}
+
+/*Flow 5 text width format*/
+.flow5-text{
+width: 550px;
+}
+    
+/*Flow 5 Titlecoloring*/
+.flow5-text h2{
+color: white;
+font-size: 75px;
+text-transform: capitalize;
+margin-bottom: 20px;
+text-shadow:
+4px 4px 0 blueviolet,
+5px 5px 0 blueviolet;
+}
+    
+/*Flow 5 Heading*/
+    
+.flow5-text h5{
+color: white;
+letter-spacing: 2px;
+font-size: 30px;
+margin-bottom: 25px;
+text-transform: capitalize;
+}
+
+
+.flow5-text p{
+/*color: lightblue;*/
+color: white;
+letter-spacing: 1px;
+line-height: 28px;
+font-size: 18px;
+margin-bottom: 45px;
+padding-top: 2px;
+margin-top: 2px;
+}
+
+
+/*Flow 5 Flow Buttons*/
+
+.flow5button{
+width: 30%;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+flex-direction: column;
+justify-content: space-evenly;
+font-size: 15px;
+height: 50px;
+}
+
+.flow5button .flow5buttonfr{
+background-color: white;
+color: blueviolet;
+text-decoration: none;
+border: 10px solid #101010;
+font-weight: bold;
+padding: 13px 15px;
+border-radius: 30px;
+transition: .4s;
+margin-bottom: 15px;
+}
+    
+/*See Flow hover animation*/
+.flow5button .flow5buttonfr:hover{
+transform: scale(1.15);
+transition: .3s;
+}
+
+
+/*Flow 5 Part 2 Inspiration*/
+
+.flow5layout2{
+width: 1600px;
+max-width: 95%;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+
+
+.flow5-2{
+width: 100%;
+padding-right: 100px;
+padding: 50px 0px;
+background-color: #191919;
+}
+
+.flow5-2 img{
+height: auto;
+width: 700px;
+padding-right: 150px;
+padding-bottom: 200px;
+}
+
+/*Flow 5 text width format*/
+.flow5-2-text{
+width: 550px;
+}
+    
+/*Flow 5 Titlecoloring*/
+.flow5-2-text h2{
+color: white;
+font-size: 75px;
+text-transform: capitalize;
+margin-bottom: 20px;
+text-shadow:
+4px 4px 0 blueviolet,
+5px 5px 0 blueviolet;
+}
+    
+/*Flow 5 Heading*/
+    
+.flow5-2-text h5{
+color: white;
+letter-spacing: 2px;
+font-size: 30px;
+margin-bottom: 25px;
+text-transform: capitalize;
+}
+
+
+.flow5-2-text p{
+/*color: lightblue;*/
+color: white;
+letter-spacing: 1px;
+line-height: 28px;
+font-size: 18px;
+margin-bottom: 45px;
+padding-top: 2px;
+margin-top: 2px;
+}
+
+
+/*Flow 5 Part 3 Typografi*/
+
+.flow5layout3{
+width: 1600px;
+max-width: 95%;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+
+
+.flow5-3{
+width: 100%;
+padding-right: 100px;
+padding: 50px 0px;
+background-color:#101010;
+}
+
+.flow5-3 img{
+height: auto;
+width: 700px;
+padding-right: 150px;
+padding-bottom: 200px;
+}
+
+/*Flow 5 text width format*/
+.flow5-3-text{
+width: 550px;
+}
+    
+/*Flow 5 Titlecoloring*/
+.flow5-3-text h2{
+color: white;
+font-size: 75px;
+text-transform: capitalize;
+margin-bottom: 20px;
+text-shadow:
+4px 4px 0 blueviolet,
+5px 5px 0 blueviolet;
+}
+    
+/*Flow 5 Heading*/
+    
+.flow5-3-text h5{
+color: white;
+letter-spacing: 2px;
+font-size: 30px;
+margin-bottom: 25px;
+text-transform: capitalize;
+}
+
+
+.flow5-3-text p{
+/*color: lightblue;*/
+color: white;
+letter-spacing: 1px;
+line-height: 28px;
+font-size: 18px;
+margin-bottom: 45px;
+padding-top: 2px;
+margin-top: 2px;
+}
+
+
+/*Flow 5 Part 4 Logo/Farvekoder*/
+
+.flow5layout4{
+width: 1600px;
+max-width: 95%;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+
+
+.flow5-4{
+width: 100%;
+padding-right: 100px;
+padding: 50px 0px;
+background-color:#191919;
+}
+
+.flow5-4 img{
+height: auto;
+width: 800px;
+padding-right: 150px;
+padding-bottom: 200px;
+}
+
+/*Flow 5 text width format*/
+.flow5-4-text{
+width: 550px;
+}
+    
+/*Flow 5 Titlecoloring*/
+.flow5-4-text h2{
+color: white;
+font-size: 75px;
+text-transform: capitalize;
+margin-bottom: 20px;
+text-shadow:
+4px 4px 0 blueviolet,
+5px 5px 0 blueviolet;
+}
+    
+/*Flow 5 Heading*/
+    
+.flow5-4-text h5{
+color: white;
+letter-spacing: 2px;
+font-size: 30px;
+margin-bottom: 25px;
+text-transform: capitalize;
+}
+
+
+.flow5-4-text p{
+/*color: lightblue;*/
+color: white;
+letter-spacing: 1px;
+line-height: 28px;
+font-size: 18px;
+margin-bottom: 45px;
+padding-top: 2px;
+margin-top: 2px;
+}
+
+/*Flow 5 Part 4 Projektstyring*/
+
+.flow5layout5{
+    width: 1600px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    }
+    
+    
+    
+    .flow5-5{
+    width: 100%;
+    padding-right: 100px;
+    padding: 50px 0px;
+    background-color:#101010;
+    }
+    
+    .flow5-5 img{
+    height: auto;
+    width: 800px;
+    padding-right: 150px;
+    padding-bottom: 200px;
+    }
+    
+    /*Flow 5 text width format*/
+    .flow5-5-text{
+    width: 550px;
+    }
+        
+    /*Flow 5 Titlecoloring*/
+    .flow5-5-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-shadow:
+    4px 4px 0 blueviolet,
+    5px 5px 0 blueviolet;
+    }
+        
+    /*Flow 5 Heading*/
+        
+    .flow5-5-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    }
+    
+    
+    .flow5-5-text p{
+    /*color: lightblue;*/
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    padding-top: 2px;
+    margin-top: 2px;
+    }
+    
+
+/*Video Del*/
+
+.flow5layout6{
+width: 1600px;
+max-width: 95%;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: space-around;
+    }
+    
+    
+    
+.flow5-6{
+width: 100%;
+padding: 50px 0px;
+background-color:#101010;
+padding-right: 100px;
+}
+    
+.flow5-6 img{
+height: auto;
+width: 1000px;
+padding-right: 150px;
+padding-bottom: 200px;
+}
+    
+/*Flow 5 text width format*/
+.flow5-6-text{
+width: 550px;
+}
+
+/*Flow 5 Titlecoloring*/
+.flow5-5-text h2{
+color: white;
+text-transform: capitalize;
+margin-bottom: 20px;
+text-shadow:
+4px 4px 0 blueviolet,
+5px 5px 0 blueviolet;
+font-size: 75px;
+}
+
+
+/*Flow 5 Heading*/
+.flow5-6-text h5{
+color: white;
+letter-spacing: 2px;
+font-size: 30px;
+margin-bottom: 25px;
+text-transform: capitalize;
+}
+    
+.flow5-6-text p{        
+color: white;
+line-height: 28px;
+letter-spacing: 1px;
+font-size: 18px;
+margin-bottom: 45px;
+padding-top: 2px;
+margin-top: 2px;
+}
+
+/*PROJEKTSTYRING Buttons*/
+
+.flow5button2{
+width: 110px;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+flex-direction: column;
+justify-content: space-evenly;
+font-size: 15px;
+height: 50px;
+}
+
+/* KONKLUSION */
+
+.flow5layout7{
+width: 1600px;
+height: 600px;
+max-width: 95%;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: space-around;
+    }
+    
+    
+    
+.flow5-7{
+width: 100%;
+padding: 50px 0px;
+background-color:rgb(129, 71, 211);
+padding-right: 100px;
+}
+    
+.flow5-7 img{
+height: auto;
+width: 600px;
+padding-top: 200px;
+padding-right: 150px;
+padding-bottom: 200px;
+}
+    
+/*Flow 5 text width format*/
+.flow5-7-text{
+width: 550px;
+}
+
+/*Flow 5 Titlecoloring*/
+.flow5-7-text h2{
+color: white;
+text-transform: capitalize;
+margin-bottom: 20px;
+text-shadow:
+4px 4px 0 blueviolet,
+5px 5px 0 blueviolet;
+font-size: 75px;
+}
+
+
+/*Flow 5 Heading*/
+.flow5-7-text h5{
+color: white;
+letter-spacing: 2px;
+font-size: 30px;
+margin-bottom: 25px;
+text-transform: capitalize;
+}
+    
+.flow5-7-text p{        
+color: white;
+line-height: 28px;
+letter-spacing: 1px;
+font-size: 18px;
+margin-bottom: 45px;
+padding-top: 2px;
+margin-top: 2px;
+}
+
+
+.flow5button2 .flow5button2fr{
+background-color: white;
+color: blueviolet;
+text-decoration: none;
+border: 10px transparent;
+font-weight: bold;
+padding: 13px 15px;
+border-radius: 30px;
+transition: .4s;
+margin-bottom: 15px;
+}
+    
+/*See Flow hover animation*/
+.flow5button2 .flow5button2fr:hover{
+transform: scale(1.3);
+transition: .3s;
+}
+
+
+
+    /* Contact Me  */
+.contactmepage{
+
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/contactmebackground.png);
+    background-size: cover;
+    background-position: center;
+    image-resolution: 5000;
+        
+}
+
+
+ /*Joe Leow Productions alignment*/
+ .contactme{
+    justify-content: flex-end;
+    position: absolute;
+    top: 50%;
+    left:8%;
+    transform: translateY(-50%);
+}
+
+
+/*Joe Leow Productions colouring*/
+.contactme h1{
+    color:blueviolet;
+    margin: 20px 0px 20px;
+    font-size: 100px;
+    text-shadow:
+    4px 4px 0 white;
+}
+
+/*How Contact*/
+.contactme h3{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-shadow:
+    3px 3px 0 blueviolet;
+}
+
+
+/* Contact Boxes */
+/*Contact Boxes*/
+.contactbox {
+display: flex;
+justify-content: center;
+align-items: cen;
+min-height: 50px;
+}
+
+
+/*Contact format*/
+.contacts{
+    height: 200px;
+    width: 200px;
+    padding: 10px 25px;
+    background: blueviolet;
+    border-radius: 20px;
+    margin: 35px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Whole Contact Box Hover*/
+.contacts:hover{
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    transform: scale(1.32);
+    transition: .3s;
+}
+
+/*Contact Text*/
+
+.contacts i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 20px 0px;
+    color: white;
+    text-shadow:
+    3px 3px 0 blueviolet,
+    5px 5px 0 white;
+}
+
+
+/*Flows Header Colour & Format*/
+.contacts h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+/*Flow Subject Colour & Format
+.contacts h6{
+color: white;
+margin: 10px 0px 20px;
+font-size: 15px;
+padding: 0px 0;
+text-align: center;
+}
+*/
+.contacts p{
+    color: white;
+    margin: 10px 0px 20px;
+    font-size: 16px;
+    padding: 0px 0;
+    text-align: center;
+    text-overflow: inherit;
+    font-weight: bold;
+    }
+
+.contactsbutton{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+/*See examples button*/
+.contactsbutton .contactsbuttonfr{
+    
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 5px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+/*See examples hover animation*/
+.contactsbutton .contactsbuttonfr:hover{
+    color: white;
+    transform: scale(1.15);
+    transition: .3s;
+}
+
+
+
+
+
+
+
+/*Up Button*/
+.upbutton{
+
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    font-weight: bold;
+    justify-content: center;
+    padding-left: 60%;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .3s;
+    font-size: 15px;
+}
